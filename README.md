@@ -13,7 +13,7 @@ Head over to **your themes folder, open a command prompt / powershell / terminal
     git clone https://github.com/LuckFire/Discord-Revamp
 
 # Dark Discord 
-If you want the coloring for Dark Discord, open the custom.css file and copy everything from darkdiscord.css and paste it into there. Sorry I can't find an easier way to do this since I'm not really that familiar when it comes to github, but it works.
+If you're looking for dark discord, look here: https://github.com/Snapperito/Dark-Discord
 
 # Credits
 big ty to snapperito for giving me the source that they got from lighty and making the previews (so credit to snapperito and lighty for the source) 
