@@ -1,10 +1,11 @@
 # Discord Revamp
 A revamped discord based on discord's current website.
+![Preview](https://cdn.discordapp.com/attachments/755125985330069599/755132332041568490/unknown.png)
 
 # Previews
-![Preview](https://cdn.discordapp.com/attachments/755125985330069599/755132332041568490/unknown.png)
 ![Preview](https://cdn.discordapp.com/attachments/755125985330069599/755132848553590834/unknown.png)
 ![Preview](https://cdn.discordapp.com/attachments/755125985330069599/755132710019661907/unknown.png)
+![Previwe](https://cdn.discordapp.com/attachments/755125985330069599/755134032685039616/unknown.png)
 
 # Installation
 Head over to **your themes folder, open a command prompt / powershell / terminal / or git bash** and enter the following:
