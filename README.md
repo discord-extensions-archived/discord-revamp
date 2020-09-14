@@ -1,3 +1,6 @@
+# NOTICE:
+### I basically maintain this now, since yk what hellbound did. I'll be rewriting most of the source code and fix a lot of the other issues because it used to import 2 sources, really scuffed but i'll figure something out.
+
 # Discord Revamp
 A revamped discord based on discord's current website.
 ![Preview](https://cdn.discordapp.com/attachments/755125985330069599/755132332041568490/unknown.png)
