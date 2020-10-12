@@ -1,5 +1,7 @@
 @import url("https://raw.githack.com/Snapperito/Dark-Discord/master/source.css");
 
-.headerSpotify-zpWxgT {
+.headerSpotify-zpWxgT,
+.topSectionSpotify-1lI0-P,
+.topSectionSpotify-1lI0-P .headerFill-adLl4x .tabBarContainer-1s1u-z {
    background: #699378;
 }
