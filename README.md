@@ -2,6 +2,7 @@
 A revamped discord based on discord's current website.
 # Downloads
 **Powercord** : `git clone https://github.com/LuckFire/Discord-Revamp`
+**BetterDiscord** : http://betterdiscord.net/ghdl/?url=https://https://raw.githubusercontent.com/LuckFire/Discord-Revamp/master/discordrevamp.theme.css
 
 [**BetterDiscord**](http://betterdiscord.net/ghdl/?url=https://raw.githubusercontent.com/Snapperito/Discord-Revamp/master/discordrevamp.theme.css)
 
