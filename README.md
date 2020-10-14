@@ -1,10 +1,10 @@
 # Discord Revamp
 A revamped discord based on discord's current website.
 
-# Downloads
-**Powercord** : `git clone https://github.com/LuckFire/Discord-Revamp`
+# Installation
+**Powercord Install**: `git clone https://github.com/LuckFire/Discord-Revamp`
 
-**BetterDiscord** : http://betterdiscord.net/ghdl/?url=https://https://raw.githubusercontent.com/LuckFire/Discord-Revamp/master/discordrevamp.theme.css
+**BetterDiscord Install**: https://betterdiscord.net/ghdl?id=3399
 
 # Previews
 ![Preview](https://cdn.discordapp.com/attachments/761659752446689280/765405489273503794/unknown.png)
