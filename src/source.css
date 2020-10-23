@@ -22,6 +22,24 @@ html.theme-dark .theme-light .footer-2gL1pp {
     background-color: #413f66 !important;
 }
 
+.role-2irmRk {
+    position: relative;
+    overflow: hidden;
+    border: 0;
+    z-index: 0;
+    padding: 5px;
+}
+.roleCircle-3xAZ1j::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: 0.25;
+}
+
 .headerSpotify-zpWxgT,
 .topSectionSpotify-1lI0-P,
 .topSectionSpotify-1lI0-P .headerFill-adLl4x .tabBarContainer-1s1u-z {
