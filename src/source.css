@@ -4,7 +4,7 @@ html.theme-dark .theme-light {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --text-normal: #dcddde;
-    --background-primary: var(--backgruond-primary) !important;
+    --background-primary: var(--background-primary) !important;
     --background-secondary: #242338 !important;
     --background-secondary-alt: #3c3a5e !important;
     --background-tertiary: #1c1b29 !important;
