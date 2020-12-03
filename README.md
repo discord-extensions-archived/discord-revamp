@@ -4,7 +4,7 @@ A revamped discord based on discord's current website.
 # Installation
 **Powercord Install**: `git clone https://github.com/LuckFire/Discord-Revamp`
 
-**BetterDiscord Install**: https://betterdiscord.net/ghdl?id=3399
+**BetterDiscord Install**: https://betterdiscord.net/ghdl?id=3448
 
 # Previews
 ![Preview](https://cdn.discordapp.com/attachments/761659752446689280/765405489273503794/unknown.png)
