@@ -1,5 +1,12 @@
-//META{"name":"Discord Revamp","description":"A revamped discord based on discord's current website.","author":"REDACATED#9999","version":"1.1.0","authorId":"431883840483491850","website":"https://github.com/LuckFire/Discord-Revamp","source":"https://raw.githubusercontent.com/LuckFire/Discord-Revamp/master/discordrevamp.theme.css"}*//{}
-
+  /**
+ * @name Discord Revamp
+ * @description A revamped discord based on discord's current website.
+ * @author REDACATED#9999
+ * @version 1.0.0
+ * @authorId 431883840483491850
+ * @website https://github.com/LuckFire/Discord-Revamp
+ * @source https://raw.githubusercontent.com/LuckFire/Discord-Revamp/master/discordrevamp.theme.css
+ */
 @import url("https://raw.githack.com/LuckFire/Discord-Revamp/master/src/source.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/MoreRoundedBorders/borders.css");
 
