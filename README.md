@@ -17,7 +17,7 @@ git clone https://github.com/LuckFire/discord-revamp
 ```
 
 **For BetterDiscord:**
-- [Direct Download](https://betterdiscord.net/ghdl?id=3619)
+- [Direct Download](https://betterdiscord.net/ghdl?id=3624)
 - [View Source](https://raw.githack.com/LuckFire/discord-revamp/master/src/support/betterdiscord/compiled.css)
 
 **For Browser / Web:**
