@@ -8,6 +8,8 @@
     * @source https://github.com/LuckFire/discord-revamp/blob/master/src
 **/
 
+@import url('https://luckfire.github.io/discord-revamp/src/support/betterdiscord/compiled.css');
+
 :root {
     --blurple-replace: #7289da;
     --spotify-header: #699378;
@@ -52,5 +54,3 @@
     --background-accent-3: rgb(64, 62, 101, 0.3);
     --background-floating-2: rgba(21, 20, 30, 0.2);
 }
-
-@import url('https://luckfire.github.io/discord-revamp/src/support/betterdiscord/compiled.css')
