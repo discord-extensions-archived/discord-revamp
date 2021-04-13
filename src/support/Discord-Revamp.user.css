@@ -1,0 +1,141 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         Discord Revamp
+    @description  A revamped Discord based on their current website.
+    @author       LuckFire#4800 & Snapper#0001
+    @namespace    github.com/LuckFire/dicsord-revamp
+    @version      1.0.1
+    ==/UserStyle== */
+
+    @import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
+
+    :root {
+        --blurple-replace: #7289da;
+        --spotify-header: #699378;
+        --background-primary: #292841;
+        --background-secondary: #242338;
+        --background-secondary-alt: #191827;
+        --background-tertiary: #1c1b29;
+        --background-accent: #413f66;
+        --background-floating: #15141e;
+        --userarea-background: var(--background-tertiary);
+        --header-primary: #fff;
+        --header-secondary: #b9bbbe;
+        --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+        --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+        --channels-default: #B9BBBE;
+        --channeltextarea-background: var(--background-tertiary);
+        --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        --activity-card-background: #202225;
+        --interactive-normal: #b9bbbe;
+        --interactive-hover: #dcddde;
+        --interactive-active: #fff;
+        --interactive-muted: #737579;
+        --background-modifier-hover: rgba(60, 58, 94, 0.1);
+        --background-modifier-active: rgba(60, 58, 94, 0.3);
+        --background-modifier-selected: rgba(60, 58, 94, 0.4);
+        --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+        --text-link: #00b0f4;
+        --text-normal: #ffffff;
+        --text-muted: #B9BBBE;
+        --deprecated-panel-background: #292b2f;
+        --deprecated-card-bg: rgba(0, 0, 0, 0.2);
+        --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1);
+        --deprecated-store-bg: #36393f;
+        --deprecated-quickswitcher-input-background: #72767d;
+        --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+        --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+        --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+        --deprecated-text-input-border-hover: #040405;
+        --deprecated-text-input-border-disabled: var(--background-tertiary);
+        --deprecated-text-input-prefix: #dcddde;
+        --background-accent-1: rgb(64, 62, 101, 0.1);
+        --background-accent-3: rgb(64, 62, 101, 0.3);
+        --background-floating-2: rgba(21, 20, 30, 0.2);
+    }
+
+    #app-mount .role-2irmRk {
+        position: relative;
+        overflow: hidden;
+        border: 0;
+        z-index: 0;
+        padding: 5px;
+    }
+    #app-mount .role-2irmRk .roleCircle-3xAZ1j::after {
+        content: "";
+        position: absolute;
+        background: inherit;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        opacity: 0.25;
+    }
+    #app-mount .role-2irmRk.addButton-pcyyf6 {
+        background-color: rgba(125, 125, 125, 0.25);
+    }
+
+    #app-mount .channelTextArea-2VhZ6z .scrollableContainer-2NUZem,
+    #app-mount .container-2Pjhx- .layout-2DM8Md,
+    #app-mount .input-cIJ7To,
+    #app-mount .searchBar-3dMhjb,
+    #app-mount .searchBarComponent-32dTOx {
+        border-radius: 25px;
+    }
+    #app-mount .searchFilter-2ESiM3 {
+        border-radius: 25px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    #app-mount .searchAnswer-3Dz2-q {
+        border-radius: 0 25px 25px 0;
+        padding-right: 6px;
+        margin-left: -7px;
+    }
+    #app-mount .searchBarComponent-32dTOx {
+        padding-left: 10px;
+    }
+    #app-mount .searchBar-3dMhjb .public-DraftEditorPlaceholder-root {
+        padding-left: 7px;
+    }
+    #app-mount .userPopout-3XzG_A,
+    #app-mount .root-SR8cQa,
+    #app-mount .modal-3O0aXp {
+        border-radius: 20px;
+    }
+    #app-mount .menu-3sdvDG {
+        border-radius: 10px;
+    }
+
+    #app-mount .headerSpotify-zpWxgT,
+    #app-mount .topSectionSpotify-1lI0-P,
+    #app-mount .topSectionSpotify-1lI0-P .headerFill-adLl4x .tabBarContainer-1s1u-z {
+        background: var(--spotify-header);
+    }
+
+    html.theme-light #app-mount::after {
+        content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
+        background: var(--background-tertiary);
+        /* Container color */
+        position: fixed;
+        z-index: 5;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        max-width: 225px;
+        line-height: normal;
+        padding: 15px 0 15px 60px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-left: 2px solid #F04747;
+        border-radius: 2px;
+        color: rgba(255, 255, 255, 0.65);
+        
+        /* Text Color */
+        background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
+        background-repeat: no-repeat;
+        background-size: 35px;
+        background-position: 10px center;
+    }
+}
