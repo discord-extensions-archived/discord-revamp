@@ -1,0 +1,56 @@
+/**
+    * @name Discord Revamp
+    * @version 1.0.1
+    * @description A revamped Discord based on discord's current website.
+    * @author LuckFire#4800 & Snapper#0001
+    *
+    * @website https://github.com/LuckFire
+    * @source https://github.com/LuckFire/discord-revamp/blob/master/src
+**/
+
+:root {
+    --blurple-replace: #7289da;
+    --spotify-header: #699378;
+    --background-primary: #292841;
+    --background-secondary: #242338;
+    --background-secondary-alt: #191827;
+    --background-tertiary: #1c1b29;
+    --background-accent: #413f66;
+    --background-floating: #15141e;
+    --userarea-background: var(--background-tertiary);
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --channels-default: #B9BBBE;
+    --channeltextarea-background: var(--background-tertiary);
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --activity-card-background: #202225;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #737579;
+    --background-modifier-hover: rgba(60, 58, 94, 0.1);
+    --background-modifier-active: rgba(60, 58, 94, 0.3);
+    --background-modifier-selected: rgba(60, 58, 94, 0.4);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --text-link: #00b0f4;
+    --text-normal: #ffffff;
+    --text-muted: #B9BBBE;
+    --deprecated-panel-background: #292b2f;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2);
+    --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: var(--background-tertiary);
+    --deprecated-text-input-prefix: #dcddde;
+    --background-accent-1: rgb(64, 62, 101, 0.1);
+    --background-accent-3: rgb(64, 62, 101, 0.3);
+    --background-floating-2: rgba(21, 20, 30, 0.2);
+}
+
+@import url('https://luckfire.github.io/discord-revamp/src/support/betterdiscord/compiled.css')
