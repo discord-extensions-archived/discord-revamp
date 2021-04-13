@@ -17,12 +17,12 @@ git clone https://github.com/LuckFire/discord-revamp
 ```
 
 **For BetterDiscord:**
-- [Direct Download](https://betterdiscord.net/ghdl?id=)
-- [View Source]()
+- [Direct Download](https://betterdiscord.net/ghdl?id=3619)
+- [View Source](https://raw.githack.com/LuckFire/discord-revamp/master/src/support/betterdiscord/compiled.css)
 
 **For Browser / Web:**
 1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
-2. After installing, head over to [this link]().
+2. After installing, head over to [this link](https://raw.githack.com/LuckFire/discord-revamp/master/src/support/Discord-Revamp.user.css).
 3. Press the "Install Style" button.
 
 ## Issue Reporting
